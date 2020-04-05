@@ -10,6 +10,12 @@ First install dependencies:
 npm install
 ```
 
+To run webpack-dev-server
+
+```sh
+npm run start
+```
+
 To create a production build:
 
 ```sh
@@ -22,13 +28,4 @@ To create a development build:
 npm run build-dev
 ```
 
-## Running
 
-```sh
-node dist/bundle.js
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
-# covid-19-chrome-extension
