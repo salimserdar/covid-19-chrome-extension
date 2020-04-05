@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Empty project</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap" rel="stylesheet">
+   
+  </head>
+  <body>
+    <div id="app">
+      <div class="select-wrapper">
+        <select id="country-select" class="select">
+          <option>Select a country</option>
+        </select>
+      </div>
+
+      <div class="covid-data">
+
+        <div class="covid-data__item">
+          <span class="covid-data__flag"></span>
+          <span class="covid-data__name"></span>
+        </div>
+
+        <div class="covid-data__item">
+          <span class="covid-data__label">Cases:</span>
+          <span class="covid-data__cases"></span>
+        </div>
+
+        <div class="covid-data__item">
+          <span class="covid-data__label">Today's Cases:</span>
+          <span class="covid-data__todaycases"></span>
+        </div>
+
+        <div class="covid-data__item">
+          <span class="covid-data__label">Deaths:</span>
+          <span class="covid-data__deaths"></span>
+        </div>
+
+        <div class="covid-data__item">
+          <span class="covid-data__label">Today's Deaths:</span>
+          <span class="covid-data__todaysdeaths"></span>
+        </div>
+
+        <div class="covid-data__item">
+          <span class="covid-data__label">Recovered:</span>
+          <span class="covid-data__recovered"></span>
+        </div>
+
+      </div>
+
+      <canvas id="myChart" width="400" height="400"></canvas>
+
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
