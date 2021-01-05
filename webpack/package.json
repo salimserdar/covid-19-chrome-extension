@@ -14,7 +14,7 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.5.0",
     "select2": "^4.0.13"
   },
